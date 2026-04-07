@@ -1,0 +1,35 @@
+{
+    "name": "PSX : Ascended Value List",
+    "short_name": "PSX : Ascended Value List",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#0175C2",
+    "theme_color": "#0175C2",
+    "description": "PSX: Ascended Value List is your ultimate guide for the game PSX: Ascended. Our website provides an up-to-date, comprehensive value list for every pet in the game, so you never have to ask or guess their worth again. Whether you’re trading, collecting, or just curious, our clear and organized lists make it easy to see the value of each pet at a glance. Save time, make informed decisions, and enjoy the game without the hassle of endless inquiries. Stay ahead in PSX: Ascended with our trusted and reliable value list.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}
