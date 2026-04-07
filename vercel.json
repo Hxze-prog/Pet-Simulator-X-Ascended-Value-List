@@ -1,18 +1,6 @@
 {
-  "builds": [
-    {
-      "src": "pubspec.yaml",
-      "use": "@vercel/static-build",
-      "config": {
-        "buildCommand": "git clone https://github.com/flutter/flutter.git --depth 1 -b stable && export PATH=\"$PATH:$(pwd)/flutter/bin\" && flutter build web",
-        "outputDirectory": "build/web"
-      }
-    }
-  ],
   "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
+    { "src": "/", "dest": "/index.html" },
+    { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
